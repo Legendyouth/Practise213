@@ -1,0 +1,10 @@
+import '../styles/app.scss';
+import Zepto from './lib/zepto.min.js';
+import ionic from './lib/ionic.bundle.min.js';
+import './lib/angular-ui-router.js';
+import Swiper from './lib/swiper.min.js';
+import './config/define.js';
+import './config/config.js';
+import './config/service.js';
+import './usage/guide.js';
+import './usage/home.js';

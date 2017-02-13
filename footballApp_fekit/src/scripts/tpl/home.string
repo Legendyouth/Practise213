@@ -1,0 +1,93 @@
+<div class="m-home" ng-controller='homeCtrl'>
+   <header>
+        <ul>
+          <li class="yo-ico menu">&#xe745;</li>
+          <li>
+             <ul id="title">
+              <li class="active">热点</li>
+              <li>关注</li>
+             </ul>
+          </li>
+          <li class="yo-ico sm">&#xe684;</li>
+        </ul>
+    </header>
+    <div class="home-section">
+        <div class="swiper-container" id="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-flex">
+                <nav>
+                   <ul id="nav">
+                      <li class="active">足球现场</li>
+                      <li>足球美女</li>
+                      <li>足球先生</li>
+                   </ul>
+                </nav>
+                <div class="section-content">
+                  <div class="swiper-container" id="swiper-main">
+                    <div class="swiper-wrapper">
+                      <ion-scroll class="swiper-slide">
+                          <div class="home-scroll">
+                              <div class="scroller">
+                                  <ul>
+                                     <li>
+                                        <img src="./img/images/img1.jpg">
+                                        <b>大丸子</b>
+                                     </li>
+                                     <li></li>
+                                     <li>
+                                        <img src="./img/images/img2.jpg">
+                                        <b>大丸子</b>
+                                     </li>
+                                   </ul>
+                                   <ul>
+                                     <li>
+                                        <img src="./img/images/img3.jpg">
+                                        <b>大丸子</b>
+                                     </li>
+                                     <li></li>
+                                     <li>
+                                        <img src="./img/images/img4.jpg">
+                                        <b>大丸子</b>
+                                     </li>
+                                   </ul>
+                                   <ul>
+                                     <li>
+                                        <img src="./img/images/img1.jpg">
+                                        <b>大丸子</b>
+                                     </li>
+                                     <li></li>
+                                     <li>
+                                        <img src="./img/images/img2.jpg">
+                                        <b>大丸子</b>
+                                     </li>
+                                   </ul>
+                                   <ul>
+                                     <li>
+                                        <img src="./img/images/img3.jpg">
+                                        <b>大丸子</b>
+                                     </li>
+                                     <li></li>
+                                     <li>
+                                        <img src="./img/images/img4.jpg">
+                                        <b>大丸子</b>
+                                     </li>
+                                   </ul>
+                              </div>
+                          </div>
+                      </ion-scroll>
+                      <div class="swiper-slide">
+                      </div>
+                      <div class="swiper-slide">
+                          足球美女...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                关注......
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
